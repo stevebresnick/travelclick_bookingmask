@@ -1,0 +1,14 @@
+travelclick_bookingmask.configform:
+  path: 'admin/config/travelclick'
+  defaults:
+    _form: '\Drupal\travelclick_bookingmask\Form\ConfigForm'
+    _title: 'TravelClick Booking Mask Configuration Form'
+  requirements:
+    _permission: 'administer site configuration'
+travelclick_bookingmask.bookingform:
+  path: 'travelclick/bookingmask/booking'
+  defaults:
+    _form: '\Drupal\travelclick_bookingmask\Form\BookingForm'
+    _title: 'TravelClick Booking Mask Form'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,6 @@
+name: TravelClick BookingMask
+type: module
+description: This module builds queries through configuration fields and provides a block with an exposed form for searching and submitting the queries to iHotelier.
+core: 8.x
+package: TravelClick
+configuration: travelclick_bookingmask.configform

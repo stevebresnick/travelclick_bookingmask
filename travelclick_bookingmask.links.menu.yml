@@ -1,0 +1,6 @@
+travelclick_bookingmask.configform:
+  title: 'Travelclick Bookingmask'
+  route_name: travelclick_bookingmask.configform
+  parent: system.admin_config
+  description: 'Configuration for Travelclick Bookingmask: Hotel ID and endpoint URL'
+  weight: -15
